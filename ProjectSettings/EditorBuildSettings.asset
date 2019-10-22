@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Epic Dirt/Scenes/Menu.unity
     guid: 0e165c0d012bd41ddbb1742a3ad98d63
   - enabled: 1
-    path: Assets/Epic Dirt/Scenes/SampleScene.unity
+    path: Assets/Epic Dirt/Scenes/Level1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Epic Dirt/Scenes/Level2.unity
+    guid: 5bb4b723a4a3847af8a7ec4bda831dff
   m_configObjects: {}
