@@ -11,3 +11,21 @@
   - Thêm iTems
   - Thêm Script
   - Thêm máu
+### Commit lần 2 (23/10/2019)
+- Thêm level 1
+- Hoàn chỉnh menu
+- Thêm effect
+- Thêm items
+- Thêm nhân vật
+- ...
++ Các việc cần làm
+  - Thêm 9 level nữa
+  - Thêm quái vật
+  - Thêm hiệu ứng bắn
+  - Thêm máu
+  - Thêm level
+  - Thêm skill
+  - Thêm iventory
+  - Thêm Boss
+  - Thêm damge
+  - Thêm TextDamgeHealth
