@@ -1,29 +1,18 @@
 ﻿<Properties StartupConfiguration="{6843C9B3-3998-FE4D-5C4C-69AFD37C13A4}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Destroy.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ScoreTotal.cs">
     <Files>
-      <File FileName="Assets/CameraController.cs" Line="19" Column="6" />
-      <File FileName="Assets/Epic Dirt/Scripts/LevelChanger.cs" Line="32" Column="28" />
-      <File FileName="Assets/Epic Dirt/Scripts/PickUpController.cs" Line="9" Column="1" />
-      <File FileName="Assets/Destroy.cs" Line="7" Column="13" />
+      <File FileName="Assets/_EpicDirt/Scripts/PlayerController.cs" Line="62" Column="45" />
+      <File FileName="Assets/_EpicDirt/Scripts/PlayerStats.cs" Line="26" Column="56" />
+      <File FileName="Assets/_EpicDirt/Scripts/Shooting.cs" Line="16" Column="35" />
+      <File FileName="Assets/ScoreUpdate.cs" Line="12" Column="6" />
+      <File FileName="Assets/_EpicDirt/Scripts/GameController.cs" Line="13" Column="11" />
+      <File FileName="Assets/_EpicDirt/Scripts/PauseMenuController.cs" Line="56" Column="6" />
+      <File FileName="Assets/ScoreTotal.cs" Line="10" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Final ED" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Epic Dirt" expanded="True">
-                <Node name="Scripts" expanded="True" />
-              </Node>
-              <Node name="Destroy.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="258df072-9b13-41d7-9496-ca41b2f3e720" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="90f3054c-4d8d-43ca-b8dc-7ff8d3e7eb0e" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

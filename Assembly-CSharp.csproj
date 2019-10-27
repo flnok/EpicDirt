@@ -63,15 +63,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Destroy.cs" />
-    <Compile Include="Assets\Epic Dirt\Scripts\CameraController.cs" />
-    <Compile Include="Assets\Epic Dirt\Scripts\CheckpointController.cs" />
-    <Compile Include="Assets\Epic Dirt\Scripts\GameController.cs" />
-    <Compile Include="Assets\Epic Dirt\Scripts\LevelChanger.cs" />
-    <Compile Include="Assets\Epic Dirt\Scripts\MainMenu.cs" />
-    <Compile Include="Assets\Epic Dirt\Scripts\PauseMenuController.cs" />
-    <Compile Include="Assets\Epic Dirt\Scripts\PickUpController.cs" />
-    <Compile Include="Assets\Epic Dirt\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\_EpicDirt\Scripts\BattleEvent.cs" />
+    <Compile Include="Assets\_EpicDirt\Scripts\Bullet.cs" />
+    <Compile Include="Assets\_EpicDirt\Scripts\CameraController.cs" />
+    <Compile Include="Assets\_EpicDirt\Scripts\CheckpointController.cs" />
+    <Compile Include="Assets\_EpicDirt\Scripts\Destroy.cs" />
+    <Compile Include="Assets\_EpicDirt\Scripts\EnemyController.cs" />
+    <Compile Include="Assets\_EpicDirt\Scripts\EnemyStats.cs" />
+    <Compile Include="Assets\_EpicDirt\Scripts\FadingSprite.cs" />
+    <Compile Include="Assets\_EpicDirt\Scripts\GameController.cs" />
+    <Compile Include="Assets\_EpicDirt\Scripts\ItemsEffect.cs" />
+    <Compile Include="Assets\_EpicDirt\Scripts\LevelChanger.cs" />
+    <Compile Include="Assets\_EpicDirt\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\_EpicDirt\Scripts\PauseMenuController.cs" />
+    <Compile Include="Assets\_EpicDirt\Scripts\PickUpController.cs" />
+    <Compile Include="Assets\_EpicDirt\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\_EpicDirt\Scripts\PlayerStats.cs" />
+    <Compile Include="Assets\_EpicDirt\Scripts\PopupDamge.cs" />
+    <Compile Include="Assets\_EpicDirt\Scripts\Shooting.cs" />
+    <Compile Include="Assets\ScoreTotal.cs" />
+    <Compile Include="Assets\ScoreUpdate.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
@@ -88,7 +99,6 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
-    <None Include="Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <Reference Include="Unity.Timeline.Editor">
@@ -300,6 +310,9 @@
     </Reference>
     <Reference Include="UnityEngine.XRModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.9f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+      <HintPath>/Users/flnok/STUDY/Unity/Final ED/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.9f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -654,9 +667,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="AstarPathfindingProject.csproj">
+      <Project>{E6B44B17-30FC-68C9-417D-EC429AFC3208}</Project>
+      <Name>AstarPathfindingProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="PackageToolsEditor.csproj">
+      <Project>{4356F455-B60A-91BC-1117-8413F8D6CD9E}</Project>
+      <Name>PackageToolsEditor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.2D.Tilemap.Extras.Editor.csproj">
       <Project>{94E41059-1F38-386E-CC3B-225753EFD843}</Project>
       <Name>Unity.2D.Tilemap.Extras.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
+      <Project>{7CBF6243-CEC7-354D-A07D-4A16F57519AB}</Project>
+      <Name>AstarPathfindingProjectEditor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Tilemap.Extras.csproj">
       <Project>{2EB611DB-90C6-2FC5-F644-E3A69C5B8864}</Project>

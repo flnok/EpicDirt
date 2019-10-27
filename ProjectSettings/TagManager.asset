@@ -6,6 +6,10 @@ TagManager:
   tags:
   - LevelChanger
   - PickUp
+  - Bullet
+  - Enemy
+  - UI
+  - ScoreText
   layers:
   - Default
   - TransparentFX
@@ -15,8 +19,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Player
+  - Obstacle
   - 
   - 
   - 
@@ -40,9 +44,27 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Sky
-    uniqueID: 4173070583
-    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3135434215
+    locked: 0
+  - name: Midground
+    uniqueID: 3794493375
+    locked: 0
+  - name: Native
+    uniqueID: 37381637
+    locked: 0
+  - name: Player
+    uniqueID: 814217211
+    locked: 0
+  - name: Enemy
+    uniqueID: 8125875
+    locked: 0
+  - name: Foreground
+    uniqueID: 3776439381
+    locked: 0
+  - name: UI
+    uniqueID: 1381576887
     locked: 0
