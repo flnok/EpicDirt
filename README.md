@@ -29,3 +29,5 @@
   - Thêm Boss
   - Thêm damge
   - Thêm TextDamgeHealth
+### Commit hoàn tất ( 28 / 11 )
+- Hoàn chỉnh
