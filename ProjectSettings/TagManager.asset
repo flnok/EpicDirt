@@ -10,6 +10,8 @@ TagManager:
   - Enemy
   - UI
   - ScoreText
+  - Instruction
+  - Volume
   layers:
   - Default
   - TransparentFX

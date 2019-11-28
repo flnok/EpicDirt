@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 4847240124105764076}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 5, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -49,12 +49,19 @@ MonoBehaviour:
   spawnObjects:
   - {fileID: 654769419537922354, guid: b8cb8b2aa1b6b4052881f486b5d5c0c5, type: 3}
   - {fileID: 654769419537922354, guid: b8cb8b2aa1b6b4052881f486b5d5c0c5, type: 3}
-  - {fileID: 6318876701521856327, guid: 59d138e476cf14414b8c239249e06bd0, type: 3}
-  - {fileID: 6318876701521856327, guid: 59d138e476cf14414b8c239249e06bd0, type: 3}
-  xMin: -25
-  xMax: 25
-  yMin: -18
-  yMax: 18
+  - {fileID: 654769419537922354, guid: b8cb8b2aa1b6b4052881f486b5d5c0c5, type: 3}
+  - {fileID: 654769419537922354, guid: b8cb8b2aa1b6b4052881f486b5d5c0c5, type: 3}
+  - {fileID: 654769419537922354, guid: b8cb8b2aa1b6b4052881f486b5d5c0c5, type: 3}
+  - {fileID: 654769419537922354, guid: b8cb8b2aa1b6b4052881f486b5d5c0c5, type: 3}
+  - {fileID: 4604026740355023627, guid: 9ddfebc17ac60427ab4168c3ec1b31af, type: 3}
+  - {fileID: 4604026740355023627, guid: 9ddfebc17ac60427ab4168c3ec1b31af, type: 3}
+  - {fileID: 4604026740355023627, guid: 9ddfebc17ac60427ab4168c3ec1b31af, type: 3}
+  - {fileID: 4604026740355023627, guid: 9ddfebc17ac60427ab4168c3ec1b31af, type: 3}
+  xMin: -29
+  xMax: 29
+  yMin: 10
+  yMax: 20
+  durationInstruction: 5
 --- !u!61 &5590646036355771826
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -68,7 +75,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.04903221, y: -0.082503796}
+  m_Offset: {x: -0.00005722046, y: -0.012302399}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -79,5 +86,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 25.123215, y: 12.052211}
+  m_Size: {x: 77.13044, y: 54.70701}
   m_EdgeRadius: 0

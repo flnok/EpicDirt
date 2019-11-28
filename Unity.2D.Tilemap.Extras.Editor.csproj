@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{94E41059-1F38-386E-CC3B-225753EFD843}</ProjectGuid>
+    <ProjectGuid>{A49D2D30-798B-5992-C860-0E52FBD4BFAE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.2D.Tilemap.Extras.Editor</AssemblyName>
@@ -63,35 +63,35 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\2d-extras-master\Editor\Brushes\CoordinateBrush\CoordinateBrush.cs" />
-    <Compile Include="Assets\2d-extras-master\Editor\Brushes\GameObjectBrush\GameObjectBrush.cs" />
-    <Compile Include="Assets\2d-extras-master\Editor\Brushes\GroupBrush\GroupBrush.cs" />
-    <Compile Include="Assets\2d-extras-master\Editor\Brushes\LineBrush\LineBrush.cs" />
-    <Compile Include="Assets\2d-extras-master\Editor\Brushes\PrefabBrush\PrefabBrush.cs" />
-    <Compile Include="Assets\2d-extras-master\Editor\Brushes\RandomBrush\RandomBrush.cs" />
-    <Compile Include="Assets\2d-extras-master\Editor\Brushes\TintBrush\TintBrush.cs" />
-    <Compile Include="Assets\2d-extras-master\Editor\Brushes\TintBrushSmooth\TintBrushSmooth.cs" />
-    <Compile Include="Assets\2d-extras-master\Editor\Tiles\HexagonalRuleTile\HexagonalRuleTileEditor.cs" />
-    <Compile Include="Assets\2d-extras-master\Editor\Tiles\IsometricRuleTile\IsometricRuleTileEditor.cs" />
-    <Compile Include="Assets\2d-extras-master\Editor\Tiles\RuleOverrideTile\PopulateRuleOverrideTileWizard.cs" />
-    <Compile Include="Assets\2d-extras-master\Editor\Tiles\RuleOverrideTile\RuleOverrideTileEditor.cs" />
-    <Compile Include="Assets\2d-extras-master\Editor\Tiles\RuleTile\CustomRuleTileMenu.cs" />
-    <Compile Include="Assets\2d-extras-master\Editor\Tiles\RuleTile\RuleTileEditor.cs" />
-    <None Include="Assets\2d-extras-master\Editor\Tiles\RuleTile\ScriptTemplates\NewCustomRuleTile.cs.txt" />
+    <Compile Include="Assets\two2d-extras-master\Editor\Brushes\CoordinateBrush\CoordinateBrush.cs" />
+    <Compile Include="Assets\two2d-extras-master\Editor\Brushes\GameObjectBrush\GameObjectBrush.cs" />
+    <Compile Include="Assets\two2d-extras-master\Editor\Brushes\GroupBrush\GroupBrush.cs" />
+    <Compile Include="Assets\two2d-extras-master\Editor\Brushes\LineBrush\LineBrush.cs" />
+    <Compile Include="Assets\two2d-extras-master\Editor\Brushes\PrefabBrush\PrefabBrush.cs" />
+    <Compile Include="Assets\two2d-extras-master\Editor\Brushes\RandomBrush\RandomBrush.cs" />
+    <Compile Include="Assets\two2d-extras-master\Editor\Brushes\TintBrush\TintBrush.cs" />
+    <Compile Include="Assets\two2d-extras-master\Editor\Brushes\TintBrushSmooth\TintBrushSmooth.cs" />
+    <Compile Include="Assets\two2d-extras-master\Editor\Tiles\HexagonalRuleTile\HexagonalRuleTileEditor.cs" />
+    <Compile Include="Assets\two2d-extras-master\Editor\Tiles\IsometricRuleTile\IsometricRuleTileEditor.cs" />
+    <Compile Include="Assets\two2d-extras-master\Editor\Tiles\RuleOverrideTile\PopulateRuleOverrideTileWizard.cs" />
+    <Compile Include="Assets\two2d-extras-master\Editor\Tiles\RuleOverrideTile\RuleOverrideTileEditor.cs" />
+    <Compile Include="Assets\two2d-extras-master\Editor\Tiles\RuleTile\CustomRuleTileMenu.cs" />
+    <Compile Include="Assets\two2d-extras-master\Editor\Tiles\RuleTile\RuleTileEditor.cs" />
+    <None Include="Assets\two2d-extras-master\Editor\Tiles\RuleTile\ScriptTemplates\NewCustomRuleTile.cs.txt" />
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>/Users/flnok/STUDY/Unity/Final ED/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>/Users/flnok/STUDY/UNITY/51702066-51702181/Final ED 2/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/flnok/STUDY/Unity/Final ED/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/flnok/STUDY/UNITY/51702066-51702181/Final ED 2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/flnok/STUDY/Unity/Final ED/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/flnok/STUDY/UNITY/51702066-51702181/Final ED 2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>/Users/flnok/STUDY/Unity/Final ED/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>/Users/flnok/STUDY/UNITY/51702066-51702181/Final ED 2/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>/Users/flnok/STUDY/Unity/Final ED/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>/Users/flnok/STUDY/UNITY/51702066-51702181/Final ED 2/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.9f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -295,10 +295,10 @@
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="Pathfinding.Ionic.Zip.Reduced">
-      <HintPath>/Users/flnok/STUDY/Unity/Final ED/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+      <HintPath>/Users/flnok/STUDY/UNITY/51702066-51702181/Final ED 2/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>/Users/flnok/STUDY/Unity/Final ED/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>/Users/flnok/STUDY/UNITY/51702066-51702181/Final ED 2/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.9f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -663,7 +663,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.2D.Tilemap.Extras.csproj">
-      <Project>{2EB611DB-90C6-2FC5-F644-E3A69C5B8864}</Project>
+      <Project>{D29A13B1-C8F5-EE59-CBE1-E62B384E1707}</Project>
       <Name>Unity.2D.Tilemap.Extras</Name>
     </ProjectReference>
   </ItemGroup>

@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_EpicDirt/Scenes/Level2.unity
     guid: 46d3df07d81e54a8aae311e82214d7c9
+  - enabled: 1
+    path: Assets/_EpicDirt/Scenes/Level3.unity
+    guid: b1bf9d3caf1c64f839edff1ddd427371
+  - enabled: 1
+    path: Assets/_EpicDirt/Scenes/Level4.unity
+    guid: 5b859b1be78ab48f59047f04c78a6d14
+  - enabled: 1
+    path: Assets/_EpicDirt/Scenes/Level5.unity
+    guid: 15bb69cc71ff54cfdaac8e3c2640c394
   m_configObjects: {}

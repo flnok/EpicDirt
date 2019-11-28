@@ -27,6 +27,7 @@ public class CheckpointController : MonoBehaviour
     {
         if (isopen && collision.CompareTag("Player"))
         {
+            GetComponent<AudioSource>().Play();
             Enter();
         }
     }

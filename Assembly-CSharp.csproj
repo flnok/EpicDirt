@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6843C9B3-3998-FE4D-5C4C-69AFD37C13A4}</ProjectGuid>
+    <ProjectGuid>{14B81278-07B7-2FDA-EEFE-92D72F425E25}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,7 +63,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\_EpicDirt\Scripts\BattleEvent.cs" />
     <Compile Include="Assets\_EpicDirt\Scripts\Bullet.cs" />
     <Compile Include="Assets\_EpicDirt\Scripts\CameraController.cs" />
     <Compile Include="Assets\_EpicDirt\Scripts\CheckpointController.cs" />
@@ -80,9 +79,10 @@
     <Compile Include="Assets\_EpicDirt\Scripts\PlayerController.cs" />
     <Compile Include="Assets\_EpicDirt\Scripts\PlayerStats.cs" />
     <Compile Include="Assets\_EpicDirt\Scripts\PopupDamge.cs" />
+    <Compile Include="Assets\_EpicDirt\Scripts\ScoreTotal.cs" />
+    <Compile Include="Assets\_EpicDirt\Scripts\ScoreUpdate.cs" />
     <Compile Include="Assets\_EpicDirt\Scripts\Shooting.cs" />
-    <Compile Include="Assets\ScoreTotal.cs" />
-    <Compile Include="Assets\ScoreUpdate.cs" />
+    <Compile Include="Assets\_EpicDirt\Scripts\VolumeController.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
@@ -98,41 +98,42 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\Pixel Font - Tripfive\_README.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>/Users/flnok/STUDY/Unity/Final ED/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>/Users/flnok/STUDY/UNITY/51702066-51702181/Final ED 2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>/Users/flnok/STUDY/Unity/Final ED/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>/Users/flnok/STUDY/UNITY/51702066-51702181/Final ED 2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/flnok/STUDY/Unity/Final ED/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/flnok/STUDY/UNITY/51702066-51702181/Final ED 2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/flnok/STUDY/Unity/Final ED/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/flnok/STUDY/UNITY/51702066-51702181/Final ED 2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>/Users/flnok/STUDY/Unity/Final ED/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>/Users/flnok/STUDY/UNITY/51702066-51702181/Final ED 2/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/flnok/STUDY/Unity/Final ED/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/flnok/STUDY/UNITY/51702066-51702181/Final ED 2/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>/Users/flnok/STUDY/Unity/Final ED/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>/Users/flnok/STUDY/UNITY/51702066-51702181/Final ED 2/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>/Users/flnok/STUDY/Unity/Final ED/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>/Users/flnok/STUDY/UNITY/51702066-51702181/Final ED 2/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>/Users/flnok/STUDY/Unity/Final ED/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>/Users/flnok/STUDY/UNITY/51702066-51702181/Final ED 2/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/flnok/STUDY/Unity/Final ED/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/flnok/STUDY/UNITY/51702066-51702181/Final ED 2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/flnok/STUDY/Unity/Final ED/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/flnok/STUDY/UNITY/51702066-51702181/Final ED 2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.9f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -312,7 +313,7 @@
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.9f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="Pathfinding.Ionic.Zip.Reduced">
-      <HintPath>/Users/flnok/STUDY/Unity/Final ED/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+      <HintPath>/Users/flnok/STUDY/UNITY/51702066-51702181/Final ED 2/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.9f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -668,23 +669,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="AstarPathfindingProject.csproj">
-      <Project>{E6B44B17-30FC-68C9-417D-EC429AFC3208}</Project>
+      <Project>{A2E20B38-81B1-833B-FD6E-ED145A4B9084}</Project>
       <Name>AstarPathfindingProject</Name>
     </ProjectReference>
     <ProjectReference Include="PackageToolsEditor.csproj">
-      <Project>{4356F455-B60A-91BC-1117-8413F8D6CD9E}</Project>
+      <Project>{14126BA1-8D59-8228-4FD4-FBC29B08E4FE}</Project>
       <Name>PackageToolsEditor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Tilemap.Extras.Editor.csproj">
-      <Project>{94E41059-1F38-386E-CC3B-225753EFD843}</Project>
+      <Project>{A49D2D30-798B-5992-C860-0E52FBD4BFAE}</Project>
       <Name>Unity.2D.Tilemap.Extras.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
-      <Project>{7CBF6243-CEC7-354D-A07D-4A16F57519AB}</Project>
+      <Project>{BCDB0B36-744C-B61D-582A-432DF2B76CDA}</Project>
       <Name>AstarPathfindingProjectEditor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Tilemap.Extras.csproj">
-      <Project>{2EB611DB-90C6-2FC5-F644-E3A69C5B8864}</Project>
+      <Project>{D29A13B1-C8F5-EE59-CBE1-E62B384E1707}</Project>
       <Name>Unity.2D.Tilemap.Extras</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,32 +9,30 @@ public class GameController : MonoBehaviour
     public GameObject[] spawnObjects;
     public float xMin, xMax, yMin, yMax;
 
-    private GameObject GetScore;
-    public int totalScore;
-    private float duration = 10f;
+    public static int totalScore = 0;
+    public float durationInstruction = 10f;
 
-
-    private void Awake()
-    {
-        GetScore = GameObject.FindGameObjectWithTag("ScoreText");
-    }
 
     void Start()
     {
-        totalScore = 0;
         GetLevelChanger.SetActive(true);
         SpawnObject();
 
-        // instruction at level 1
+        // instruction at level 1   
         if (instrucstion.activeSelf)
         {
             StartCoroutine(StopInstruction());
+        }
+
+        if(SceneManager.GetActiveScene().buildIndex == 1)
+        {
+            totalScore = 0;
         }
     }
 
     IEnumerator StopInstruction()
     {
-        yield return new WaitForSecondsRealtime(duration);
+        yield return new WaitForSecondsRealtime(durationInstruction);
         instrucstion.SetActive(false);
     }
 
@@ -54,13 +52,23 @@ public class GameController : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision) => Destroy(collision.gameObject);
 
     // checkpoint
-    public void CompleteLevel() => GetLevelChanger.GetComponent<LevelChanger>().fadeLevel();
+    public void CompleteLevel()
+    {
+        // Play permently
+        if (SceneManager.GetActiveScene().buildIndex == 5)
+        {
+            GetLevelChanger.GetComponent<LevelChanger>().setTriggerFade(2);
+        }
+        else
+        {
+            GetLevelChanger.GetComponent<LevelChanger>().FadeLevel();
+        }
+    }
 
     // change score text
     public void UpdateScore(int score)
     {
         totalScore += score;
-        GetScore.GetComponent<ScoreUpdate>().SetScore(totalScore);
     }
 
     // call from pausemenucontroller
@@ -71,5 +79,9 @@ public class GameController : MonoBehaviour
     }
 
     // call from pausemenucontroller
-    public void PlayFromBegining() => GetLevelChanger.GetComponent<LevelChanger>().setTriggerFade(1);
+    public void PlayFromBegining()
+    {
+        Time.timeScale = 1f;
+        GetLevelChanger.GetComponent<LevelChanger>().setTriggerFade(1);
+    }
 }

@@ -1,7 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+
 
 public class PlayerStats : MonoBehaviour
 {
@@ -9,13 +9,25 @@ public class PlayerStats : MonoBehaviour
     public Image ExperienceBar;
 
 
-    public float Health;
-    public float MoveSpeed;
-    public float AttackSpeed;
-    public float Damge;
-    public int NumberShot;
+    public static float Health = 1f;
+    public static float MoveSpeed = 5f;
+    public static float AttackSpeed = 0.5f;
+    public static float Damge = 10f;
+    public static int NumberShot = 1;
+    public static float Experience;
 
-    public float Experience;
+    private void Start()
+    {
+        if(SceneManager.GetActiveScene().buildIndex == 1)
+        {
+            Health = 1f;
+            MoveSpeed = 5f;
+            AttackSpeed = 0.5f;
+            Damge = 10f;
+            NumberShot = 1;
+            Experience = 0f;
+        }
+    }
 
     void Update()
     {

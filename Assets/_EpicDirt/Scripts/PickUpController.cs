@@ -15,53 +15,52 @@ public class PickUpController : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            PickUp(collision);
+            PickUp();
         }
     }
 
-    private void PickUp(Collider2D player)
+    private void PickUp()
     {
         //Effect
         GameObject newEffect = Instantiate(ObjectEffect) as GameObject;
         newEffect.transform.position = new Vector2(transform.position.x, transform.position.y);
 
         //Power up
-        PowerUp(player.GetComponent<PlayerStats>());
+        PowerUp();
 
         //Destroy
         Destroy(gameObject);                
     }
 
-    private void PowerUp(PlayerStats stats)
+    private void PowerUp()
     {
         int EffectIndex = Random.Range(0, EffectScript.EffectAmount);
         switch (EffectIndex)
         {
             case 0:
-                if (stats.AttackSpeed > 0.3)
-                    stats.AttackSpeed = EffectScript.BoostAttackSpeed(stats.AttackSpeed);
+                if (PlayerStats.AttackSpeed > 0.3)
+                    PlayerStats.AttackSpeed = EffectScript.BoostAttackSpeed(PlayerStats.AttackSpeed);
 
                 break;
             case 1:
-                if (stats.MoveSpeed < 7)
-                    stats.MoveSpeed = EffectScript.BoostMoveSpeed(stats.MoveSpeed);
+                if (PlayerStats.MoveSpeed < 7)
+                    PlayerStats.MoveSpeed = EffectScript.BoostMoveSpeed(PlayerStats.MoveSpeed);
 
                 break;
             case 2:
-                if (stats.Health < 1)
-                    stats.Health = EffectScript.BoostHealth(stats.Health);
+                if (PlayerStats.Health < 1)
+                    PlayerStats.Health = EffectScript.BoostHealth(PlayerStats.Health);
 
                 break;
             case 3:
-                if (stats.Damge < 20)
-                    stats.Damge = EffectScript.BoostDamge(stats.Damge);
+                if (PlayerStats.Damge < 20)
+                    PlayerStats.Damge = EffectScript.BoostDamge(PlayerStats.Damge);
 
                 break;
             case 4:
-                if (stats.NumberShot < 2)
-                    stats.NumberShot = EffectScript.AddDoubleHit(stats.NumberShot);
-
-                break;
+                if (PlayerStats.NumberShot < 2)
+                    PlayerStats.NumberShot = EffectScript.AddDoubleHit(PlayerStats.NumberShot);
+                  break;
         }
     }
 }

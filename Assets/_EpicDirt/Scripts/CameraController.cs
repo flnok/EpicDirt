@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CameraController : MonoBehaviour
 {
@@ -16,6 +17,10 @@ public class CameraController : MonoBehaviour
 
     void Update()
     {
-        transform.position = Vector3.Lerp(transform.position, player.position - offset, Time.deltaTime * smoothTime);
+        if(player != null)
+        {
+            transform.position = Vector3.Lerp(transform.position, player.position - offset, Time.deltaTime * smoothTime);
+        }
     }
+
 }
